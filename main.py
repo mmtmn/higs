@@ -67,5 +67,7 @@ plt.ylabel('Value')
 plt.title('Universe Cooling, Higgs Field Activation, and Resonant Frequency Increase')
 plt.legend()
 
-# Display the plot
-plt.show()
+# Save the plot to a file instead of showing it
+plt.savefig("universe_simulation_plot.png")
+
+print("Plot saved as 'universe_simulation_plot.png'")
